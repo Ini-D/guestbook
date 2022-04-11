@@ -1,0 +1,19 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" type="text/css" />
+		<link rel="stylesheet" th:href="@{/webjars/font-awesome/css/all.css}" type="text/css" />
+		<link rel="stylesheet" th:href="@{/resources/css/style.css}" type="text/css" />
+		<title>Hotel Homepage</title>
+	</head>
+	<body>
+		<div class="text-center">
+			<img class="front-img" src="../static/resources/images/hotel.jpg" th:src="@{/resources/images/hotel.jpg}" alt="Hotel lobby" >
+			<div class="banner">
+				<a class="gb-link" href="/guestbook">Gästebuch</a>
+			</div>
+		</div> 
+	</body>
+	

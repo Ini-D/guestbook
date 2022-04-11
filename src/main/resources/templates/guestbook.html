@@ -11,8 +11,11 @@
 		<title th:text="#{guestbook.title}">Gästebuch</title>
 	</head>
 	<body>
-		<h1 class="text-center" th:text="#{guestbook.title}">Gästebuch</h1>
-	
+		<div class="text-center">
+			
+			<img src="../static/resources/images/guestbook.jpg" th:src="@{/resources/images/guestbook.jpg}" alt="Guestbook">
+			<h1 class="text-center" th:text="#{guestbook.title}">Gästebuch</h1>
+		</div>
 		<div class="checkbox text-center">
 			<input type="checkbox" id="use_ajax" />
 			<label for="use_ajax" th:text="#{guestbook.useajax}">Ajax nutzen</label>

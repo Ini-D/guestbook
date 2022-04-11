@@ -66,10 +66,10 @@ class GuestbookController {
 	 *
 	 * @return a redirect string
 	 */
-	@GetMapping(path = "/")
+	/*@GetMapping(path = "/")
 	String index() {
 		return "redirect:/guestbook";
-	}
+	}*/
 
 	/**
 	 * Handles requests to access the guestbook. Obtains all currently available {@link GuestbookEntry}s and puts them
